@@ -10,7 +10,7 @@ class Settings(BaseSettings):
 
     # Yangilanish intervallari (soniyada)
     price_update_interval: int = 1200      # 20 daqiqa
-    news_check_interval: int = 300         # 5 daqiqa
+    news_check_interval: int = 1000         # 5 daqiqa
 
     # Faqat "High" va "Medium" impactli yangiliklarni yuborish
     min_news_impact: str = "Medium"        # Low / Medium / High
